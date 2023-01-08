@@ -6,19 +6,21 @@
   <link rel="stylesheet" href="style.css">
   <title>Tudo Pronto!</title>
   
-< script >
-! função ( f , b , e , v , n , t , s )
-{ if ( f . fbq ) return ; n = f . fbq = função ( ) { n . callMethod ?
-n . callMethod . apply ( n , argumentos ) : n . fila . push ( argumentos ) } ;
-se ( ! f . _fbq ) f . _fbq = n ; n . empurre = n ; n . carregado = ! 0 ; n . versão = '2.0' ;
-n . fila = [ ] ; t = b . criarElemento ( e ) ; t . assíncrono = ! 0 ;
-t . src = v ; s = b . getElementsByTagName ( e ) [ 0 ] ;
-s . parentNode . insertBefore ( t , s ) } ( window ,  document , 'script' ,
-'https://connect.facebook.net/en_US/fbevents.js' ) ;
-fbq ( 'início' ,  '1571792936566152' ) ;
-fbq ( 'faixa' ,  'addtocart' ) ;
-</ script >
-
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3204077193167868');
+fbq('track', 'addtocart');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3204077193167868&ev=PageView&noscript=1"
+/></noscript>
 
 </head>
 <body> 
@@ -34,7 +36,7 @@ fbq ( 'faixa' ,  'addtocart' ) ;
         </div>
       </div>    
     </div>
-    <p style="text-align: center; font-weight: bold;">© 2023 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
+    <p style="text-align: center; font-weight: bold;">© 2022 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
   </div>
   <script type="text/javascript" src="script.js"></script>
 </body>
